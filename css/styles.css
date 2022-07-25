@@ -1,0 +1,118 @@
+*{
+	font-family: font-family: 'Ubuntu', sans-serif;
+}
+.texto{
+	text-align: center;
+	color: grey;
+	font-size: 18px;
+}
+
+#botonera{
+	font-size: 21px;
+	margin-right: 10px;
+}
+#logo{
+	width: 150px;
+	margin-left: 10px;
+}
+#bg-green{
+	background-color: #B2FF59;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.contacto img{
+	width: 35px;
+}
+
+.contacto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+	padding: 10px;
+
+}
+
+.contacto ul{
+	display: flex;
+	list-style: none;
+	cursor: pointer;
+}
+
+.contacto ul li{
+	margin-right: 20px;
+    padding-top: 10px;
+}
+
+.contacto ul li a{
+	color: rgba(100, 160, 200, 1.0);
+	text-decoration: none;
+}
+
+.scale:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+#boton{
+	background-color: #FDE9AA;
+	color:grey;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-left: 15px;
+}
+
+button:hover{
+	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-moz-box-shadow:1px 5px 14px 1px rgba(0,0,0,0.42);
+	-o-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-ms-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	cursor: pointer;
+}
+.articulo{
+	padding: 10px;	
+}
+
+.articulo img{
+    width: 100%;
+}
+
+.looks{
+	display: flex;
+	justify-content: space-between;
+}
+.temporada{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article img{
+	width: 100%;
+} 
+.ingreso{
+	text-align: center;
+	font-size: 20px;
+	color: grey;
+}
+#carrusel{
+	padding-right: 20px;
+	height: 618px;
+}
+#card{
+	padding-left: 20px;
+}
+#tarjeta{
+	font-family: font-family: 'Ubuntu', sans-serif;
+	color: grey;
+}
+.card-text{
+font-family: font-family: 'Ubuntu', sans-serif;
+	color: grey;
+	font-size: 20px;
+}
+#temporada{
+	text-align: center;
+}
