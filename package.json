@@ -1,25 +1,22 @@
 {
-  "name": "childrens-soltermann",
+  "name": "childrenssass-soltermann",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass" : "sass",
-    "sass:watch": "sass --watch scss/style.scss css/style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarianSoltermann/bootstrap-soltermann.git"
+    "url": "git+https://github.com/MarianSoltermann/childrenssass-soltermann.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MarianSoltermann/bootstrap-soltermann/issues"
+    "url": "https://github.com/MarianSoltermann/childrenssass-soltermann/issues"
   },
-  "homepage": "https://github.com/MarianSoltermann/bootstrap-soltermann#readme",
+  "homepage": "https://github.com/MarianSoltermann/childrenssass-soltermann#readme",
   "dependencies": {
-    "childrens": "^0.0.2",
     "sass": "^1.54.0"
   }
 }
