@@ -1,3 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+#botonera {
+  background-color: white;
+  padding: 5px 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+}
+#botonera ul {
+  display: flex;
+}
+#botonera ul li {
+  list-style: none;
+}
+#botonera ul li a {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+#botonera ul li a:hover {
+  color: black;
+}
 
+#logo {
+  width: 125px;
+  margin-left: 10px;
+}
+
+#carrusel {
+  padding-right: 20px;
+  height: 618px;
+}
+
+#card {
+  padding-left: 20px;
+}
+
+#tarjeta {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-size: 21px;
+}
+
+h4 {
+  color: grey;
+  font-size: 23px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articulo {
+  padding: 10px;
+}
+.articulo img {
+  width: 100%;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.texto {
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+}
+
+.looks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+}
+.contacto ul {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+.contacto ul li {
+  margin-right: 20px;
+  padding-top: 10px;
+}
+.contacto ul li a {
+  text-decoration: none;
+}
+.contacto img {
+  width: 35px;
+}
+
+#bg-green {
+  background-color: #B2FF59;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+#boton {
+  background-color: #FFD833;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  margin-left: 15px;
+}
+
+#botoncito {
+  background-color: #FFD833;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  margin-bottom: 12px;
+  padding: 6px;
+}
+
+#botonete {
+  background-color: #ffa7c6;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  padding: 6px;
+}
+
+button:hover {
+  box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
+  -o-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
+  -ms-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */

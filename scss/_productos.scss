@@ -1,0 +1,48 @@
+#carrusel{
+	padding-right: 20px;
+	height: 618px;
+}
+#card{
+	padding-left: 20px;
+}
+#tarjeta{
+	font-family: $fontMain;
+	color: $secondaryColor;
+}
+.card-text{
+    font-family: $fontMain;
+	color: $secondaryColor;
+	font-size: $textMd;
+}
+
+h4{
+	color: $secondaryColor;
+	font-size: $textMd + 2px;
+}
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img{
+		width: 100%;
+	}
+}
+.articulo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    padding: 10px;
+    img{
+    	width: 100%;
+    }	
+}
+.scale:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+.texto{
+	text-align: center;
+	color: $secondaryColor;
+	font-size: $textSm +2px;
+}

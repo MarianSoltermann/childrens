@@ -1,5 +1,29 @@
 //nesting - anidacion
+
 #botonera{
 	background-color: $mainColor;
-	
+	padding: 5px 20px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: $textMd;
+	ul{
+		display: flex;
+		li{
+			list-style: none;
+			a{
+			    color:$secondaryColor;
+			    font-family: $fontMain;
+			    font-size: $textMd;
+			    &:hover{
+			    	color: $black;
+			    }
+			}
+		}
+
+	}
+}
+#logo{
+	width: 125px;
+	margin-left: 10px;
 }

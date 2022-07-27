@@ -1,0 +1,48 @@
+#bg-green{
+	background-color: $verde;
+	color: $mainColor;
+	text-align: center;
+	font-size: $textSm + 3px;
+	letter-spacing: 1px;
+	font-weight: $textRegular;
+	margin-top: 10px;
+	font-family: $fontMain;
+}
+#boton{
+	background-color: $amarillo;
+	color: $mainColor;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-left: 15px;
+}
+#botoncito{
+	background-color: $amarillo;
+	color: $mainColor;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-bottom: 12px;
+	padding: 6px;
+}
+#botonete{
+	background-color:#ffa7c6;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding: 6px;
+}
+
+button:hover{
+	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-moz-box-shadow:1px 5px 14px 1px rgba(0,0,0,0.42);
+	-o-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-ms-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	cursor: pointer;
+}
+
+
