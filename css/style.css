@@ -125,7 +125,7 @@ article {
   margin-left: 15px;
 }
 
-#botoncito {
+#comprar {
   background-color: #FFD833;
   color: white;
   border-radius: 10px;
@@ -154,5 +154,6 @@ button:hover {
   -ms-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   cursor: pointer;
 }
+
 
 /*# sourceMappingURL=style.css.map */

@@ -16,7 +16,7 @@
 	border: none;
 	margin-left: 15px;
 }
-#botoncito{
+#comprar{
 	background-color: $amarillo;
 	color: $mainColor;
 	border-radius: 10px;
@@ -45,4 +45,9 @@ button:hover{
 	cursor: pointer;
 }
 
-
+.formulario{
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
