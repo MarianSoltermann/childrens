@@ -1,15 +1,13 @@
 //variables 
-
-//colors
-$mainColor: white;
-$secondaryColor: grey;
-$black: black;
 $rosa: #FFA7C6;
 $verde: #B2FF59;
 $celeste: #90DDFF;
 $nude: #FDE9AA;
 $amarillo: #FFD833;
 
-//sizing
-$w-100: 100%;
-$w-50: 50%;
+//maps
+$colors:(
+'uno': white,
+'dos': grey,
+'tres': black,);
+

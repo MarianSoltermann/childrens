@@ -1,51 +1,54 @@
-#carrusel{
+#carrusel {
 	padding-right: 20px;
-	height: 618px;
-	img{
-		width: 100%;
-	}
-}
-#card{
-	padding-left: 20px;
-}
-#tarjeta{
-	font-family: $fontMain;
-	color: $secondaryColor;
-}
-.card-text{
-    font-family: $fontMain;
-	color: $secondaryColor;
-	font-size: $textMd;
+	height: 590px;
 }
 
-h4{
-	color: $secondaryColor;
-	font-size: $textMd + 2px;
+#tarjeta {
+	padding-left: 30px;
 }
-article{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	img{
+
+.promo {
+	@include texto(1.2em, 1em, grey);
+}
+
+.texto {
+	@include texto(1.2em, 0em, grey);
+	text-align: center;
+	margin-top: 13px;
+}
+
+h1 {
+	@include texto(1.6em, 1em, $amarillo);
+	font-family: $fontSecondary;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding: 20px;
+}
+h2 {
+	@include texto(2em, 2em, $celeste);
+	font-family: $fontSecondary;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+article {
+	@include ubi(space-between, center, column);
+	    img{
 		width: 100%;
 	}
 }
-.articulo{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+.articulo {
+	@include ubi(space-between, center, row);
     padding: 10px;
-    img{
+        img{
     	width: 100%;
     }	
 }
-.scale:hover{
+
+.scale:hover {
 	transform: scale(1.2);
 	cursor: pointer;
 	transition: 1s;
 }
-.texto{
-	text-align: center;
-	color: $secondaryColor;
-	font-size: $textSm +2px;
-}
+
+

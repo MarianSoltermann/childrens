@@ -1,0 +1,5 @@
+Documento explicativo Seo
+-Agregué la etiqueta meta name= "descripcion" en el index y en cada una de las páginas para explicar el contenido de la misma.
+-Utilicé la etiqueta meta name= "keywords" con palabras clave de lo que contiene cada una de las páginas (por ejemplo: en la página de TOPS usé las palabras clave REMERAS, CAMPERAS, BUZO, etc.)
+-Para describir cada una de las imágenes, ya sea de productos o de fotos, completé "alt" comentando desde las prendas hasta los colores.
+

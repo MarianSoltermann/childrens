@@ -1,7 +1,5 @@
 .contacto{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@include ubi(space-between, center, column);
 	margin-top: 15px;
 	padding: 10px;
 	ul{

@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap");
 #botonera {
   background-color: white;
   padding: 5px 20px;
   margin-right: 10px;
   display: flex;
   justify-content: space-between;
-  font-size: 21px;
+  font-size: 1.4em;
 }
 #botonera ul {
   display: flex;
@@ -13,52 +13,72 @@
 #botonera ul li {
   list-style: none;
 }
-#botonera ul li a {
-  color: grey;
-  font-family: "Roboto", sans-serif;
-  font-size: 21px;
-}
 #botonera ul li a:hover {
   color: black;
 }
 
 #logo {
-  width: 125px;
+  width: 123px;
   margin-left: 10px;
 }
 
 #carrusel {
   padding-right: 20px;
-  height: 618px;
-}
-
-#card {
-  padding-left: 20px;
+  height: 590px;
 }
 
 #tarjeta {
-  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+}
+
+.promo {
+  font-size: 1.2em;
+  line-height: 1em;
   color: grey;
 }
 
-.card-text {
-  font-family: "Roboto", sans-serif;
+.texto {
+  font-size: 1.2em;
+  line-height: 0em;
   color: grey;
-  font-size: 21px;
+  text-align: center;
+  margin-top: 13px;
 }
 
-h4 {
-  color: grey;
-  font-size: 23px;
+h1 {
+  font-size: 1.6em;
+  line-height: 1em;
+  color: #FFD833;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 2em;
+  color: #90DDFF;
+  font-family: "Mouse Memoirs", sans-serif;
+  letter-spacing: 0.2em;
+  text-align: center;
 }
 
 article {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+}
+article img {
+  width: 100%;
 }
 
 .articulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   padding: 10px;
 }
 .articulo img {
@@ -71,21 +91,11 @@ article {
   transition: 1s;
 }
 
-.texto {
-  text-align: center;
-  color: grey;
-  font-size: 18px;
-}
-
-.looks {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contacto {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   margin-top: 15px;
   padding: 10px;
 }
@@ -105,18 +115,19 @@ article {
   width: 35px;
 }
 
-#bg-green {
-  background-color: #B2FF59;
+#pie_encabezado {
+  font-size: 1.2em;
+  line-height: 1.2em;
   color: white;
+  background-color: #B2FF59;
   text-align: center;
-  font-size: 19px;
-  letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: bold;
+  letter-spacing: 3px;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
 }
 
-#boton {
+.shop, .comprar, #ingresar {
   background-color: #FFD833;
   color: white;
   border-radius: 10px;
@@ -124,29 +135,7 @@ article {
   border: none;
   margin-left: 15px;
 }
-
-#comprar {
-  background-color: #FFD833;
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  border: none;
-  margin-bottom: 12px;
-  padding: 6px;
-}
-
-#botonete {
-  background-color: #ffa7c6;
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  border: none;
-  margin-top: 10px;
-  margin-bottom: 12px;
-  padding: 6px;
-}
-
-button:hover {
+.shop:hover, .comprar:hover, #ingresar:hover {
   box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
@@ -155,5 +144,16 @@ button:hover {
   cursor: pointer;
 }
 
+.comprar, #ingresar {
+  background-color: #FFD833;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+#ingresar {
+  background-color: #FFA7C6;
+  color: white;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

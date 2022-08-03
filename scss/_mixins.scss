@@ -1,0 +1,12 @@
+@mixin texto($fontSize, $lineHeight, $color){
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	color: $color;
+}
+
+@mixin ubi($justify, $align, $direction){
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}

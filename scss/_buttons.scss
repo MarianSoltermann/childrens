@@ -1,0 +1,29 @@
+.shop{
+	background-color: $amarillo;
+	color: map-get($map:$colors, $key:'uno');
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	margin-left: 15px;
+	&:hover{
+	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-moz-box-shadow:1px 5px 14px 1px rgba(0,0,0,0.42);
+	-o-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	-ms-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
+	cursor: pointer;
+}
+}
+.comprar {
+	@extend .shop;
+	background-color: $amarillo;
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+
+#ingresar {
+	@extend .comprar;
+	background-color: $rosa;
+	color: white;
+	margin-top: 10px;
+}
