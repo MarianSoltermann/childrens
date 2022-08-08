@@ -51,4 +51,14 @@ article {
 	transition: 1s;
 }
 
+.error {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
 
+.textoError {
+	margin-top: 50px;
+	text-align: center;
+}

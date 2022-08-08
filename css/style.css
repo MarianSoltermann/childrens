@@ -91,6 +91,18 @@ article img {
   transition: 1s;
 }
 
+.error {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoError {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .contacto {
   display: flex;
   justify-content: space-between;
@@ -127,7 +139,7 @@ article img {
   font-family: "Roboto", sans-serif;
 }
 
-.shop, .comprar, #ingresar {
+.shop, #ingresar, .comprar {
   background-color: #FFD833;
   color: white;
   border-radius: 10px;
@@ -135,7 +147,7 @@ article img {
   border: none;
   margin-left: 15px;
 }
-.shop:hover, .comprar:hover, #ingresar:hover {
+.shop:hover, #ingresar:hover, .comprar:hover {
   box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
@@ -144,16 +156,19 @@ article img {
   cursor: pointer;
 }
 
-.comprar, #ingresar {
+.comprar {
   background-color: #FFD833;
   margin-top: 8px;
   margin-bottom: 12px;
 }
 
 #ingresar {
+  text-decoration: none;
   background-color: #FFA7C6;
   color: white;
-  margin-top: 10px;
+  padding: 7px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

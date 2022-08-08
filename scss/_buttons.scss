@@ -22,8 +22,11 @@
 }
 
 #ingresar {
-	@extend .comprar;
+	@extend .shop;
+	text-decoration: none;
 	background-color: $rosa;
 	color: white;
-	margin-top: 10px;
+	padding: 7px;
+	margin-top: 15px;
+	margin-bottom: 10px;
 }
