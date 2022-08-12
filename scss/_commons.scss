@@ -8,4 +8,25 @@
 	font-family: $fontMain;
 }
 
+.body {
+	background-color: black;
+}
 
+.textoError {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.error {
+	display: flex;
+       img {
+    	justify-content: center;
+    }
+}
+
+#formulario {
+	padding-left: 20px;
+	font-family: $fontMain;
+	color: grey;
+	outline: none;
+}

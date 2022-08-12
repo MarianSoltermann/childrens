@@ -21,12 +21,11 @@
 	margin-bottom: 12px;
 }
 
-#ingresar {
+.ingresar {
 	@extend .shop;
 	text-decoration: none;
 	background-color: $rosa;
 	color: white;
-	padding: 7px;
-	margin-top: 15px;
-	margin-bottom: 10px;
+	padding: 7px 10px;
+	margin-left: 0;
 }

@@ -63,3 +63,26 @@ article {
 	margin-top: 50px;
 	text-align: center;
 }
+
+.container {
+      position: relative;
+           .text {
+           background-color: white;
+           color: $celeste;
+           border-radius: 50px;
+           padding-left: 10px;
+           padding-right: 10px;
+           position: absolute;
+           color: white;
+           top: 390px;
+           text-align: center;
+        }
+    }
+
+h4 {
+    font-family: $fontSecondary;
+    color: $celeste;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+
+}
