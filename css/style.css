@@ -24,21 +24,19 @@
 
 #carrusel {
   padding-right: 10px;
-  width: 48vw;
-  height: auto;
 }
 
 #tarjeta {
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 
 .card {
   border-radius: 10px;
-  width: 48vw;
 }
 
 .promo {
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1em;
   color: grey;
   font-family: "Mouse Memoirs", sans-serif;
@@ -193,13 +191,18 @@ h4 {
   outline: none;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .shop, .ingresar, .comprar {
   background-color: #FFD833;
   color: white;
   border-radius: 10px;
   text-align: center;
   border: none;
-  margin-left: 100px;
 }
 .shop:hover, .ingresar:hover, .comprar:hover {
   box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);

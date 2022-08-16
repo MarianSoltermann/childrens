@@ -1,11 +1,14 @@
-
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .shop{
 	background-color: $amarillo;
 	color: map-get($map:$colors, $key:'uno');
 	border-radius: 10px;
 	text-align: center;
 	border: none;
-	margin-left: 100px;
 	&:hover{
 	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
@@ -13,6 +16,7 @@
 	-o-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-ms-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	cursor: pointer;
+
 }
 }
 .comprar {
