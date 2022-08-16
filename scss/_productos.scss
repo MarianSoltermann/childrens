@@ -1,15 +1,23 @@
 #carrusel {
-	padding-right: 20px;
-	width: 600px;
+	padding-right: 10px;
+	width: 48vw;
 	height: auto;
 }
 
 #tarjeta {
-	padding-left: 30px;
+	padding-left: 10px;
 }
 
+.card {
+	border-radius: 10px;
+	width: 48vw;
+	}
+
 .promo {
-	@include texto(1.2em, 1em, grey);
+	@include texto(2em, 1em, grey);
+	font-family: $fontSecondary;
+	letter-spacing: 0.1em;
+	text-align: center;
 }
 
 .texto {

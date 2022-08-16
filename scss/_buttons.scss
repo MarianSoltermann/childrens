@@ -1,10 +1,11 @@
+
 .shop{
 	background-color: $amarillo;
 	color: map-get($map:$colors, $key:'uno');
 	border-radius: 10px;
 	text-align: center;
 	border: none;
-	margin-left: 15px;
+	margin-left: 100px;
 	&:hover{
 	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
