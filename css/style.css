@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap");
 #botonera {
   background-color: white;
-  padding: 5px 20px;
-  margin-right: 10px;
   display: flex;
   justify-content: space-between;
   font-size: 1.4em;
@@ -18,21 +16,22 @@
 }
 
 #logo {
-  width: 123px;
-  margin-left: 10px;
+  width: 40%;
+}
+
+#navBar {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #carrusel {
-  padding-right: 10px;
-}
-
-#tarjeta {
-  padding-left: 10px;
-  margin-bottom: 10px;
+  width: 600px;
+  height: 700px;
 }
 
 .card {
   border-radius: 10px;
+  margin-left: 5px;
 }
 
 .promo {
