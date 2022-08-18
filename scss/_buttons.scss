@@ -26,10 +26,14 @@ form {
 	margin-bottom: 12px;
 }
 
+#ingresar{
+	display: flex;
+	justify-content: center;
+}
 .ingresar {
 	@extend .shop;
 	text-decoration: none;
-	background-color: $rosa;
+	background-color: $amarillo;
 	color: white;
 	padding: 7px 10px;
 	margin-left: 0;

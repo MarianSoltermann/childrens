@@ -1,3 +1,4 @@
+
 #pie_encabezado {
 	@include texto(1.2em, 1.2em, white);
 	background-color: $verde;
@@ -13,20 +14,23 @@
 }
 
 .textoError {
-	margin-top: 50px;
+	font-family: $fontMain;
+	font-size: 2em;
+	color: white;
+	margin-top: 40px;
 	text-align: center;
 }
 
-.error {
-	display: flex;
-       img {
-    	justify-content: center;
-    }
-}
-
 #formulario {
-	padding-left: 20px;
+	padding-left: 10px;
 	font-family: $fontMain;
 	color: grey;
 	outline: none;
+}
+
+.error {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
 }
