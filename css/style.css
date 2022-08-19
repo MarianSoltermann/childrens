@@ -3,7 +3,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 #botonera ul {
   display: flex;
@@ -16,7 +16,8 @@
 }
 
 #logo {
-  width: 50%;
+  width: 48%;
+  margin-left: 7px;
 }
 
 #navBar {
@@ -35,7 +36,7 @@
 }
 
 .promo {
-  font-size: 1.7em;
+  font-size: 1.6em;
   line-height: 1em;
   color: grey;
   font-family: "Mouse Memoirs", sans-serif;
@@ -62,12 +63,13 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
-  line-height: 2em;
+  font-size: 1.6em;
+  line-height: 1em;
   color: rgb(100, 160, 200);
   font-family: "Mouse Memoirs", sans-serif;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-align: center;
+  padding: 20px;
 }
 
 article {
@@ -85,7 +87,8 @@ article img {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .articulo img {
   width: 100%;
@@ -97,26 +100,21 @@ article img {
   transition: 1s;
 }
 
-.container {
-  position: relative;
-}
-.container .text {
-  position: absolute;
-  color: rgb(100, 160, 200);
-  background-color: white;
-  padding: 10px;
-}
-
-#preguntas {
-  display: flex;
-  justify-content: center;
-}
-
 h4 {
   font-family: "Mouse Memoirs", sans-serif;
-  color: rgb(100, 160, 200);
+  color: #C5F479;
   letter-spacing: 0.1em;
   font-size: 2em;
+}
+
+.carrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carrito img {
+  width: 38%;
 }
 
 .contacto {
@@ -147,7 +145,7 @@ h4 {
   font-size: 1.2em;
   line-height: 1.2em;
   color: white;
-  background-color: #B7FF66;
+  background-color: #C5F479;
   text-align: center;
   font-weight: bold;
   letter-spacing: 3px;
@@ -168,14 +166,14 @@ h4 {
 }
 
 #formulario {
-  padding-left: 10px;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0.5px;
+  border: 1px solid rgba(197, 244, 121, 0.5);
+  border-radius: 10px;
+  box-shadow: 0px 3px 7px #B5C1C5, 0 0 0 2px rgba(197, 244, 121, 0.5) inset;
   font-family: "Roboto", sans-serif;
-  color: grey;
-  outline: none;
-}
-
-.error {
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -188,11 +186,13 @@ form {
 }
 
 .shop, .ingresar, .comprar {
-  background-color: #FBE337;
-  color: white;
+  background-color: rgba(255, 255, 0, 0.6);
+  color: grey;
   border-radius: 10px;
   text-align: center;
   border: none;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .shop:hover, .ingresar:hover, .comprar:hover {
   box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
@@ -204,22 +204,17 @@ form {
 }
 
 .comprar {
-  background-color: #FBE337;
+  background-color: rgba(255, 255, 0, 0.6);
   margin-top: 8px;
   margin-bottom: 12px;
 }
 
-#ingresar {
-  display: flex;
-  justify-content: center;
-}
-
 .ingresar {
   text-decoration: none;
-  background-color: #FBE337;
-  color: white;
-  padding: 7px 10px;
-  margin-left: 0;
+  background-color: rgba(255, 255, 0, 0.6);
+  color: grey;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

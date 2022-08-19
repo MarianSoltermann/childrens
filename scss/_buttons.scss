@@ -5,10 +5,12 @@ form {
 }
 .shop{
 	background-color: $amarillo;
-	color: map-get($map:$colors, $key:'uno');
+	color: map-get($map:$colors, $key:'dos');
 	border-radius: 10px;
 	text-align: center;
 	border: none;
+	padding-left: 6px;
+	padding-right: 6px;
 	&:hover{
 	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
@@ -26,15 +28,12 @@ form {
 	margin-bottom: 12px;
 }
 
-#ingresar{
-	display: flex;
-	justify-content: center;
-}
+
 .ingresar {
 	@extend .shop;
 	text-decoration: none;
 	background-color: $amarillo;
-	color: white;
-	padding: 7px 10px;
-	margin-left: 0;
+	color: grey;
+	padding-right: 10px;
+	padding-left: 10px;
 }

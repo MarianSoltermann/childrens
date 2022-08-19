@@ -10,7 +10,7 @@
 	}
 
 .promo {
-	@include texto(1.7em, 1em, grey);
+	@include texto(1.6em, 1em, grey);
 	font-family: $fontSecondary;
 	letter-spacing: 0.1em;
 	text-align: center;
@@ -30,10 +30,11 @@ h1 {
 	padding: 20px;
 }
 h2 {
-	@include texto(2em, 2em, $celeste);
+	@include texto(1.6em, 1em, $celeste);
 	font-family: $fontSecondary;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	text-align: center;
+	padding:20px;
 }
 
 article {
@@ -44,7 +45,8 @@ article {
 }
 .articulo {
 	@include ubi(space-between, center, row);
-    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
         img{
     	width: 100%;
     }	
@@ -58,26 +60,21 @@ article {
 
 
 
-.container {
-      position: relative;
-           .text {
-           position: absolute;
-           color: $celeste;
-           background-color: white;
-           padding:10px;
-        }
-    }
 
-
-#preguntas {
-	display: flex;
-	justify-content: center;
-	
-}
 h4 {
     font-family: $fontSecondary;
-    color: $celeste;
+    color: $verde;
     letter-spacing: 0.1em;
     font-size: 2em;
+
+}
+.carrito {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	img {
+	width: 38%;
+	}
 
 }
