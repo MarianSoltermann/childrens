@@ -4,7 +4,9 @@
 	background-color: map-get($map:$colors,$key:'uno');
 	display: flex;
 	justify-content: space-between;
-	font-size: 1.5em;
+	font-size: 1.4em;
+	font-family: $fontMain;
+	font-weight: bold;
 	ul{
 		display: flex;
 		li{
@@ -19,7 +21,7 @@
 	}
 }
 #logo{
-	width: 48%;
+	width: 60%;
 	margin-left: 7px;
 }
 

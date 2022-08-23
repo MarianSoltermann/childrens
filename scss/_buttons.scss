@@ -4,8 +4,11 @@ form {
 	align-items: center;
 }
 .shop{
-	background-color: $amarillo;
-	color: map-get($map:$colors, $key:'dos');
+	background-color: $purple;
+	color:  map-get($map:$colors, $key:'uno');
+	font-family: $fontMain;
+	font-weight: bold;
+	font-size: 13px;
 	border-radius: 10px;
 	text-align: center;
 	border: none;
@@ -23,17 +26,22 @@ form {
 }
 .comprar {
 	@extend .shop;
-	background-color: $amarillo;
-	margin-top: 8px;
+	letter-spacing: 1px;
+	background-color: $green;
+	font-family: $fontMain;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 17px;
 	margin-bottom: 12px;
 }
 
 
 .ingresar {
 	@extend .shop;
+	font-family: $fontMain;
 	text-decoration: none;
-	background-color: $amarillo;
-	color: grey;
+	background-color: $purple;
+	color: white;
 	padding-right: 10px;
 	padding-left: 10px;
 }
