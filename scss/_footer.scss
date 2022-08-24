@@ -1,21 +1,30 @@
-.contacto{
+footer {
 	@include ubi(space-between, center, column);
 	margin-top: 15px;
 	padding: 10px;
-	ul{
+	ul {
 		display: flex;
 		list-style: none;
 		cursor: pointer;
-		li{
+		li {
 			margin-right: 20px;
             padding-top: 10px;
-            a{
+            a {
             	text-decoration: none;
             }
 
 		}
     }
-	img{
-		width: 35px;
+	img {
+		width: 30px;
+		&:hover {
+		transform: scale(1.2);
+		cursor: pointer;
+		transition: 1s;
 	}
+}
+}
+.order {
+	position: sticky;
+	top: 80px;
 }

@@ -1,8 +1,30 @@
 
+//fonts
 $fontMain: 'Roboto', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap');
-$fontSecondary: 'Fredoka', sans-serif;
+$fontSecond: 'Fredoka', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@500&display=swap');
 
-$textRegular: 400;
-$textLight: 300;
+h1 {
+	@include texto(1.3em, 0em, $purple);
+	@include padding (20px, 20px, 10px, 10px);
+	@include margin (10px, 0px, 8px, 0);
+	font-family: $fontSecond;
+	letter-spacing: 0.1em;
+}
+
+h2 {
+	@include texto(1.3em, 1em, $blue);
+	@include padding (8px, 8px, 10px, 10px);
+	@include margin (25px, 0, 0, 0);
+	font-family: $fontSecond;
+	letter-spacing: 0.1em;
+}
+
+h3 {
+	@include texto(1.5em, 0.5em, $green);
+	@include margin (25px, 15px, 0, 0);
+    font-family: $fontSecond;
+    letter-spacing: 0.1em;
+
+}

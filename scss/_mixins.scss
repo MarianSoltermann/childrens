@@ -1,4 +1,6 @@
 @mixin texto($fontSize, $lineHeight, $color){
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 	font-size: $fontSize;
 	line-height: $lineHeight;
 	color: $color;
@@ -9,4 +11,18 @@
 	justify-content: $justify;
 	align-items: $align;
 	flex-direction: $direction;
+}
+
+@mixin padding($top, $bottom, $left, $right){
+	padding-top: $top;
+	padding-bottom: $bottom;
+	padding-left: $left;
+	padding-right: $right;
+}
+
+@mixin margin($top, $bottom, $left, $right){
+	margin-top: $top;
+	margin-bottom: $bottom;
+	margin-left: $left;
+	margin-right: $right;
 }

@@ -1,3 +1,4 @@
+
 #carouselExampleInterval {
 	width: 100%;
 	height: auto;
@@ -6,111 +7,54 @@
 .card {
 	border-radius: 10px;
 	margin-left: 5px;
+	border-color: $green;
 	}
 
 .promo {
-	@include texto(1.1em, 1em, grey);
-	font-family: $fontSecondary;
+	@include texto(1.1em, 1em, $blue);
+	font-family: $fontSecond;
 	letter-spacing: 0.1em;
 	text-align: center;
+	margin-top: 30px;
 }
 
-.texto {
-	@include texto(1.2em, 0em, grey);
-	font-family: $fontMain;
-	text-align: center;
-	margin-top: 13px;
-}
-
-h1 {
-	@include texto(1.3em, 0em, $blue);
-	font-family: $fontSecondary;
-	letter-spacing: 0.1em;
-	padding: 20px;
-	margin-left: 8px;
-	margin-top: 10px;
-
-}
-
-h2 {
-	@include texto(1.3em, 1em, $blue);
-	font-family: $fontSecondary;
-	letter-spacing: 0.1em;
-	text-align: center;
-	margin-top: 25px;
-	padding: 8px;
-}
-
-.producto {
+figure {
 	@include ubi(space-between, center, column);
-	    img{
+	    img {
 		width: 100%;
 	}
-}
-.articulo {
-	@include ubi(space-between, center, row);
-    padding-right: 15px;
-    padding-left: 15px;
-        img{
-    	width: 100%;
-    }	
-}
-
-.scale:hover {
-	transform: scale(1.2);
-	cursor: pointer;
-	transition: 1s;
+	    figcaption {
+		@include texto(1.1em, 0em, grey);
+	text-align: center;
+	margin-top: 13px;
+    }
 }
 
 .img-thumbnail {
 	border-radius: 10px;
 	border: none;
+		&:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+	}
 }
 
-
-h3 {
-    font-family: $fontSecondary;
-    color: $blue;
-    letter-spacing: 0.1em;
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-
-}
-
-h4 {
-	font-family: $fontSecondary;
-    color: $blue;
-    letter-spacing: 0.1em;
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 15px;
-}
 .carrito {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@include ubi(center, center, column);
 	img {
 	width: 80px;
+	margin-top: 20px;
 	}
-
 }
 
 .dropdown-menu {
 	font-family: $fontMain;
 	font-size: 16px;
-	background-color: white;
+	background-color: map-get($map:$colors, $key:'uno');
 	li a { 
 		text-decoration: none;
 		margin-left: 20px;
-		color: grey;
+		color: map-get($map:$colors, $key:'dos');
 	}
-}
-
-.temporada {
-	text-align: center;
-	color: $purple;
-	font-size: 1.7em;
 }

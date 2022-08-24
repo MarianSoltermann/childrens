@@ -1,10 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@500&display=swap");
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  line-height: 0em;
+  color: #C759C6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: 0;
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  line-height: 1em;
+  color: #004AAD;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  line-height: 0.5em;
+  color: #7ed957;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.1em;
+}
+
 #botonera {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
@@ -23,11 +73,6 @@
   margin-left: 7px;
 }
 
-#navBar {
-  padding-top: 0;
-  margin-top: 0;
-}
-
 #carouselExampleInterval {
   width: 100%;
   height: auto;
@@ -36,108 +81,59 @@
 .card {
   border-radius: 10px;
   margin-left: 5px;
+  border-color: #7ed957;
 }
 
 .promo {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1em;
   line-height: 1em;
-  color: grey;
-  font-family: "Fredoka", sans-serif;
-  letter-spacing: 0.1em;
-  text-align: center;
-}
-
-.texto {
-  font-size: 1.2em;
-  line-height: 0em;
-  color: grey;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  margin-top: 13px;
-}
-
-h1 {
-  font-size: 1.3em;
-  line-height: 0em;
-  color: #004AAD;
-  font-family: "Fredoka", sans-serif;
-  letter-spacing: 0.1em;
-  padding: 20px;
-  margin-left: 8px;
-  margin-top: 10px;
-}
-
-h2 {
-  font-size: 1.3em;
-  line-height: 1em;
   color: #004AAD;
   font-family: "Fredoka", sans-serif;
   letter-spacing: 0.1em;
   text-align: center;
-  margin-top: 25px;
-  padding: 8px;
+  margin-top: 30px;
 }
 
-.producto {
+figure {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
-.producto img {
+figure img {
   width: 100%;
 }
-
-.articulo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.articulo img {
-  width: 100%;
-}
-
-.scale:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-  transition: 1s;
+figure figcaption {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  line-height: 0em;
+  color: grey;
+  text-align: center;
+  margin-top: 13px;
 }
 
 .img-thumbnail {
   border-radius: 10px;
   border: none;
 }
-
-h3 {
-  font-family: "Fredoka", sans-serif;
-  color: #004AAD;
-  letter-spacing: 0.1em;
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-h4 {
-  font-family: "Fredoka", sans-serif;
-  color: #004AAD;
-  letter-spacing: 0.1em;
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 15px;
+.img-thumbnail:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1s;
 }
 
 .carrito {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .carrito img {
   width: 80px;
+  margin-top: 20px;
 }
 
 .dropdown-menu {
@@ -151,13 +147,7 @@ h4 {
   color: grey;
 }
 
-.temporada {
-  text-align: center;
-  color: #C759C6;
-  font-size: 1.7em;
-}
-
-.contacto {
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,24 +155,36 @@ h4 {
   margin-top: 15px;
   padding: 10px;
 }
-.contacto ul {
+footer ul {
   display: flex;
   list-style: none;
   cursor: pointer;
 }
-.contacto ul li {
+footer ul li {
   margin-right: 20px;
   padding-top: 10px;
 }
-.contacto ul li a {
+footer ul li a {
   text-decoration: none;
 }
-.contacto img {
-  width: 35px;
+footer img {
+  width: 30px;
+}
+footer img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.order {
+  position: sticky;
+  top: 80px;
 }
 
 #pie_encabezado {
-  font-size: 1.1em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
   line-height: 1.2em;
   color: white;
   background-color: #7ed957;
@@ -190,56 +192,69 @@ h4 {
   font-weight: bold;
   letter-spacing: 2px;
   margin-top: 10px;
-  font-family: "Roboto", sans-serif;
 }
 
-.body {
-  background-color: black;
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.error img {
+  width: 13%;
 }
 
-.textoError {
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
-  color: white;
-  margin-top: 40px;
-  text-align: center;
+#temporada {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+#temporada img {
+  width: 50%;
 }
 
 #formulario {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 0;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 12px;
   border: 1px solid rgba(197, 244, 121, 0.5);
   border-radius: 10px;
-  box-shadow: 0px 3px 7px #B5C1C5, 0 0 0 2px rgba(197, 244, 121, 0.5) inset;
+  box-shadow: 0px 2px 3px, 0 0 0 2px rgba(197, 244, 121, 0.4) inset;
   font-family: "Roboto", sans-serif;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 form {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
-.shop, .ingresar, .comprar {
+.shop, .comprar, .ingresar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
   background-color: #C759C6;
   color: white;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 13px;
   border-radius: 10px;
-  text-align: center;
   border: none;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
-.shop:hover, .ingresar:hover, .comprar:hover {
+.shop:hover, .comprar:hover, .ingresar:hover {
   box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
   -moz-box-shadow: 1px 5px 14px 1px rgba(0, 0, 0, 0.42);
@@ -248,31 +263,30 @@ form {
   cursor: pointer;
 }
 
-.comprar {
-  letter-spacing: 1px;
-  background-color: #7ed957;
-  font-family: "Roboto", sans-serif;
-  padding-right: 10px;
+.ingresar {
+  padding-top: 0;
+  padding-bottom: 0;
   padding-left: 10px;
-  margin-top: 17px;
-  margin-bottom: 12px;
+  padding-right: 10px;
+  text-decoration: none;
 }
 
-.ingresar {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  background-color: #C759C6;
-  color: white;
-  padding-right: 10px;
+.comprar {
+  padding-top: 0;
+  padding-bottom: 0;
   padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  letter-spacing: 1px;
+  background-color: #7ed957;
 }
 
 @media screen and (max-width: 700px) {
   #pie_encabezado {
     font-size: 12px;
-  }
-  .registro {
-    font-size: 16px;
   }
   .contacto img {
     width: 30px;
@@ -283,8 +297,8 @@ form {
   #logo {
     width: 45%;
   }
-  h4 {
-    font-size: 20px;
+  #botonera {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -292,7 +306,7 @@ form {
     font-size: 10px;
   }
   .registro {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contacto img {
     width: 25px;
@@ -300,11 +314,11 @@ form {
   .carrito img {
     width: 40px;
   }
+  #botonera {
+    font-size: 10px;
+  }
   #logo {
     width: 35%;
-  }
-  h4 {
-    font-size: 15px;
   }
 }
 
