@@ -288,11 +288,8 @@ form {
   #pie_encabezado {
     font-size: 12px;
   }
-  .contacto img {
-    width: 30px;
-  }
   .carrito img {
-    width: 60px;
+    width: 70px;
   }
   #logo {
     width: 45%;
@@ -305,6 +302,15 @@ form {
   #pie_encabezado {
     font-size: 10px;
   }
+  h1 {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  .texto {
+    font-size: 12px;
+  }
   .registro {
     font-size: 13px;
   }
@@ -312,13 +318,16 @@ form {
     width: 25px;
   }
   .carrito img {
-    width: 40px;
+    width: 50px;
   }
   #botonera {
     font-size: 10px;
   }
   #logo {
     width: 35%;
+  }
+  .img-thumbnail:hover {
+    transform: none;
   }
 }
 

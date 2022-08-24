@@ -1,15 +1,13 @@
+//tablet
 
 @media screen and (max-width: 700px){
+
 #pie_encabezado {
 	font-size:12px;
 }
 
-.contacto img {
-	width: 30px;
-}
-
 .carrito img {
-	width: 60px;
+	width: 70px;
 }
 
 #logo {
@@ -22,9 +20,23 @@
 
 }
 
+//mobile
+
 @media screen and (max-width: 400px){
 #pie_encabezado {
 	font-size:10px;
+}
+
+h1 {
+	font-size: 13px;
+}
+
+h2 {
+	font-size: 13px;
+}
+
+.texto {
+	font-size: 12px;
 }
 
 .registro {
@@ -36,7 +48,7 @@
 }
 
 .carrito img {
-	width: 40px;
+	width: 50px;
 }
 
 #botonera {
@@ -47,4 +59,10 @@
 	width: 35%;
 }
 
+.img-thumbnail {
+	&:hover{
+		transform: none;
+	}
 }
+}
+
