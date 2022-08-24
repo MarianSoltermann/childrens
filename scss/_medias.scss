@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 700px){
+#pie_encabezado {
+	font-size:12px;
+}
+
+.registro {
+	font-size: 16px;
+} 
+
+.contacto img {
+	width: 30px;
+}
+
+.carrito img {
+	width: 60px;
+}
+
+#logo {
+	width: 45%;
+}
+
+h4 {
+	font-size: 20px;
+
+}
+
+}
+
+@media screen and (max-width: 400px){
+#pie_encabezado {
+	font-size:10px;
+}
+
+.registro {
+	font-size: 12px;
+}
+
+.contacto img {
+	width: 25px;
+}
+
+.carrito img {
+	width: 40px;
+}
+
+#logo {
+	width: 35%;
+}
+
+h4 {
+	font-size: 15px;
+
+}
+
+}

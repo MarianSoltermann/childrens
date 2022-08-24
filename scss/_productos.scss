@@ -1,7 +1,6 @@
-#carrusel {
-	width: 600px;
-	height: 700px;
-
+#carouselExampleInterval {
+	width: 100%;
+	height: auto;
 }
 
 .card {
@@ -10,7 +9,7 @@
 	}
 
 .promo {
-	@include texto(1.2em, 1em, grey);
+	@include texto(1.1em, 1em, grey);
 	font-family: $fontSecondary;
 	letter-spacing: 0.1em;
 	text-align: center;
@@ -30,7 +29,9 @@ h1 {
 	padding: 20px;
 	margin-left: 8px;
 	margin-top: 10px;
+
 }
+
 h2 {
 	@include texto(1.3em, 1em, $blue);
 	font-family: $fontSecondary;
@@ -73,9 +74,18 @@ h3 {
     letter-spacing: 0.1em;
     font-size: 1.5em;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 
+}
+
+h4 {
+	font-family: $fontSecondary;
+    color: $blue;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
 }
 .carrito {
 	display: flex;
@@ -83,7 +93,7 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	img {
-	width: 25%;
+	width: 80px;
 	}
 
 }
@@ -97,4 +107,10 @@ h3 {
 		margin-left: 20px;
 		color: grey;
 	}
+}
+
+.temporada {
+	text-align: center;
+	color: $purple;
+	font-size: 1.7em;
 }
