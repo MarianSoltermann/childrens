@@ -3,7 +3,7 @@ form {
 }
 
 .shop {
-	@include margin (10px, 10px, 0, 0);
+	@include margin (5px, 5px, 0, 0);
 	@include padding (0, 0, 10px, 10px);
 	font-family: $fontMain;
 	background-color: $purple;

@@ -1,5 +1,5 @@
 
-#pie_encabezado {
+#span {
 	@include texto(1em, 1.2em, white);
 	background-color: $green;
 	text-align: center;
@@ -10,16 +10,16 @@
 
 .error {
 	@include ubi(center, center, column);
-   margin-top: 30px;
-   img {
-   	width: 13%;
+   	margin-top: 30px;
+   	img {
+   		width: 13%;
    }
 }
 
 #temporada {
 	@include ubi(flex-start, center, column);
    img {
-   	width: 50%;
+   		width: 50%;
    }
 }
 

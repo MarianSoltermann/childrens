@@ -20,11 +20,3 @@ h2 {
 	font-family: $fontSecond;
 	letter-spacing: 0.1em;
 }
-
-h3 {
-	@include texto(1.5em, 0.5em, $green);
-	@include margin (25px, 15px, 0, 0);
-    font-family: $fontSecond;
-    letter-spacing: 0.1em;
-
-}

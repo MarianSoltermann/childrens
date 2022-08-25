@@ -1,21 +1,25 @@
 
-#carouselExampleInterval {
-	width: 100%;
-	height: auto;
-}
+
 
 .card {
 	border-radius: 10px;
-	margin-left: 5px;
-	border-color: $green;
+	margin-left: 10px;
+	padding: 3px;
+	p {
+		@include texto(1.1em, 1em, $blue);
+		font-family: $fontSecond;
+		letter-spacing: 0.1em;
+		text-align: center;
+		margin-top: 22px;
+
+	}
 	}
 
-.promo {
-	@include texto(1.1em, 1em, $blue);
-	font-family: $fontSecond;
-	letter-spacing: 0.1em;
-	text-align: center;
-	margin-top: 30px;
+.card-body {
+	@include ubi(center, center, column);
+	img {
+		width: 70%;
+	}
 }
 
 figure {
