@@ -5,7 +5,6 @@ https://mariansoltermann.github.io/childrens/
 
 magic-faloodeh-37beab.netlify.app
 
-
 El proyecto se trata de un sitio de venta online de ropa para niños. 
 
 Está conformado por 5 páginas:
