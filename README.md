@@ -32,9 +32,6 @@ Herramientas:
 Framework: Apliqué bootstrap en todas las páginas y lo modifiqué según conveniencia. 
 SASS cuando hice la anidación me dí cuenta que podía simplificar mucho el código y me sirvió para depurar lo que no era necesario.
 
-Prueba de carga imágenes:
-Abrí la página en varios dispositivos y como no tardaban en cargar decidí no optimizar las fotos porque perdían calidad.
-
 Prueba y error:
 Creé un HTML temporal que usé como borrador para ir guardando código que podría servirme mas adelante, en algunas ocasiones como no funcionaba o no me gustaba el cambio retomaba al código guardado.
 
