@@ -36,7 +36,7 @@ Prueba y error:
 Creé un HTML temporal que usé como borrador para ir guardando código que podría servirme mas adelante, en algunas ocasiones como no funcionaba o no me gustaba el cambio retomaba al código guardado.
 
 Conclusiones:
-A pesar de saber que el diseño no iba a ser criterio de evaluación, tardé mucho tiempo en definir logo, tipografías, paleta de colores.
+A pesar de saber que el diseño no iba a ser criterio de evaluación, tardé mucho tiempo en definir logo, tipografías y paleta de colores.
 Aun así no quedé conforme y me gustaría mas adelante poder hacer un curso de diseño para complementar.
 Ahora estoy haciendo uno curso de Javascript y se lo incorporaré a esta página para que funcionen los botones y los forms.
 
