@@ -1,5 +1,4 @@
-
-
+//cards, catalogo y carrito
 
 .card {
 	border-radius: 10px;
@@ -11,9 +10,8 @@
 		letter-spacing: 0.1em;
 		text-align: center;
 		margin-top: 22px;
-
 	}
-	}
+}
 
 .card-body {
 	@include ubi(center, center, column);

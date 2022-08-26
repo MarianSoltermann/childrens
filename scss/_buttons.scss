@@ -1,3 +1,5 @@
+//botones
+
 form {
 	@include ubi(center, center, row);
 }
@@ -12,7 +14,7 @@ form {
 	font-size: 13px;
 	border-radius: 10px;
 	border: none;
-	&:hover{
+	&:hover {
 	box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-webkit-box-shadow: 1px 5px 14px 1px rgba(0,0,0,0.42);
 	-moz-box-shadow:1px 5px 14px 1px rgba(0,0,0,0.42);

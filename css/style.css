@@ -166,11 +166,6 @@ footer img:hover {
   transition: 1s;
 }
 
-.order {
-  position: sticky;
-  top: 80px;
-}
-
 #span {
   text-align: center;
   font-family: "Roboto", sans-serif;

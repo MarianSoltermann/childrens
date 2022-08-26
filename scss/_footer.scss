@@ -1,3 +1,5 @@
+//footer
+
 footer {
 	@include ubi(space-between, center, column);
 	margin-top: 15px;
@@ -23,8 +25,4 @@ footer {
 		transition: 1s;
 	}
 }
-}
-.order {
-	position: sticky;
-	top: 80px;
 }

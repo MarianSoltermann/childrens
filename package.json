@@ -1,5 +1,5 @@
 {
-  "name": "childrenssass-soltermann",
+  "name": "childrens",
   "version": "1.0.0",
   "description": "indumentaria para niños online",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarianSoltermann/childrenssass-soltermann.git"
+    "url": "git+https://github.com/MarianSoltermann/childrens.git"
   },
   "author": "MarianSoltermann",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MarianSoltermann/childrenssass-soltermann/issues"
+    "url": "https://github.com/MarianSoltermann/childrens/issues"
   },
-  "homepage": "https://github.com/MarianSoltermann/childrenssass-soltermann#readme",
+  "homepage": "https://github.com/MarianSoltermann/childrens#readme",
   "dependencies": {
     "sass": "^1.54.0"
   }
