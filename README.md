@@ -34,7 +34,7 @@ La página que me llevó mas tiempo definir, le agregué dos forms, uno de regis
 Herramientas:
 
 Framework
-Apliqué bootstrap en todas las páginasy lo modifiqué según conveniencia. 
+Apliqué bootstrap en todas las páginas y lo modifiqué según conveniencia. 
 
 SASS cuando hice la anidación me dí cuenta que podía simplificar mucho el código y me sirvió para depurar lo que no era necesario.
 
